@@ -59,6 +59,8 @@ On texture_window:
 
 1. Do not stretch the selected flowbox verticaly. 
 2. Window minimum height is the size of ate least one texture + datainfo height
-3. How to remove bottom internal border from
-4. An OpenGL view to display textures with applied shaders.
+3. How to remove bottom internal border from asset_friendly_name (to put them tighter with the "subtitle"
+4. How to reduce the size of subtitle,based on title size?
+5. How to make Title text bold.
+6. An OpenGL view to display textures with applied shaders.
 
