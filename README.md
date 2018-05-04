@@ -15,9 +15,13 @@ chmod 755 assetsbrowser.py
 Screenshots
 ===========
 
-![Main Window](https://github.com/igormorgado/assetsbrowser/blob/master/screenshots/assetsbrowser_mainwindow.png)
+![Main Window1](https://github.com/igormorgado/assetsbrowser/blob/master/screenshots/mainwindow1.png)
 
-![Texture Detail](https://github.com/igormorgado/assetsbrowser/blob/master/screenshots/assetsbrowser_texturedetail.png)
+![Main Window2](https://github.com/igormorgado/assetsbrowser/blob/master/screenshots/mainwindow2.png)
+
+![Texture Detail](https://github.com/igormorgado/assetsbrowser/blob/master/screenshots/assetview.png)
+
+![About](https://github.com/igormorgado/assetsbrowser/blob/master/screenshots/about.png)
 
 
 TO DO
