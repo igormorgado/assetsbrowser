@@ -889,7 +889,6 @@ GNOME Team</property>
             <property name="visible">True</property>
             <property name="can_focus">True</property>
             <property name="receives_default">True</property>
-            <property name="relief">none</property>
             <property name="always_show_image">True</property>
             <child>
               <object class="GtkImage">
@@ -909,7 +908,7 @@ GNOME Team</property>
             <property name="can_focus">False</property>
             <property name="orientation">vertical</property>
             <child>
-              <object class="GtkEntry">
+              <object class="GtkEntry" id="asset_friendly_name">
                 <property name="visible">True</property>
                 <property name="can_focus">True</property>
                 <property name="valign">start</property>
@@ -927,7 +926,7 @@ GNOME Team</property>
               </packing>
             </child>
             <child>
-              <object class="GtkLabel">
+              <object class="GtkLabel" id="asset_quick_details">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
                 <property name="opacity">0.5</property>
@@ -945,16 +944,6 @@ GNOME Team</property>
           </object>
         </child>
         <child>
-          <object class="GtkSwitch">
-            <property name="visible">True</property>
-            <property name="can_focus">True</property>
-          </object>
-          <packing>
-            <property name="pack_type">end</property>
-            <property name="position">1</property>
-          </packing>
-        </child>
-        <child>
           <object class="GtkMenuButton">
             <property name="visible">True</property>
             <property name="can_focus">True</property>
@@ -967,6 +956,16 @@ GNOME Team</property>
                 <property name="icon_name">open-menu-symbolic</property>
               </object>
             </child>
+          </object>
+          <packing>
+            <property name="pack_type">end</property>
+            <property name="position">1</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkSwitch">
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
           </object>
           <packing>
             <property name="pack_type">end</property>
